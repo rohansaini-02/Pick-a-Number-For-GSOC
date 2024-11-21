@@ -1,0 +1,82 @@
+ body{
+   background-image:url(image.png);
+   background-size: cover;
+   display: flex;
+   height: 100vh;
+   background-position: center center;
+   align-items: center;
+   
+   
+
+ }
+ .container{background-color:#43c6ac#f8ffae;
+    text-align: center;
+    border-radius: solid 10px;
+    margin-top:20%;
+    margin-left: 35%;
+    margin-bottom: 30%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 10px;
+    height: 450px;
+    width: 450px;
+    z-index: 10;  /* Ensures the container is above the background  */
+    background: linear-gradient(156.52deg, rgba(0, 0, 0, 0.05) 2.12%, rgba(0, 0, 0, 0) 39%, rgba(0, 0, 0, 0) 54.33%, rgba(0, 0, 0, 0.15) 93.02%);
+   }
+   h1 {
+    font-family: Arial, sans-serif;
+    color: white;  /* White text color for the heading */
+    font-size: 24px;
+ }
+p{
+    color: white;
+    font-size: 24px;
+ }
+button{
+    background-color:rgb(233, 254, 6);
+    width: 80px;
+    height: 30px;
+    margin-top: 80px;
+    
+    
+ }
+ button:hover { /* Darker on hover*/
+    background-color:#3afd09;  /* Darker green on hover */
+ }
+
+ .resBtn{
+    text-align: center;
+ }
+
+ /* .fireworks-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: -1;
+}
+
+.firework {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #ff0;
+    border-radius: 50%;
+    opacity: 0;
+    animation: firework-animation 1s forwards;
+}
+
+@keyframes firework-animation {
+    0% {
+        transform: scale(1) translate(0, 0);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(2) translate(100px, -100px);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(4) translate(200px, -200px);
+        opacity: 0;
+    }
+} */
