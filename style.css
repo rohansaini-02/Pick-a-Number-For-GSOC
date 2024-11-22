@@ -17,7 +17,7 @@
     margin-bottom: 30%;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     border-radius: 10px;
-    height: 450px;
+    height: 350px;
     width: 450px;
     z-index: 10;  /* Ensures the container is above the background  */
     background: linear-gradient(156.52deg, rgba(0, 0, 0, 0.05) 2.12%, rgba(0, 0, 0, 0) 39%, rgba(0, 0, 0, 0) 54.33%, rgba(0, 0, 0, 0.15) 93.02%);

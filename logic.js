@@ -12,9 +12,9 @@ function check() {
         msg.innerHTML = "🎉Congratulations, you have guessed the number!🎉";
         msg.style.color = "green";
         resBtn.style.display = "block";
-        setTimeout(() => {
-            msg.innerHTML = ""; // Clear message after 10 seconds
-        }, 10000); // 1000 milliseconds (1 second)
+    //     setTimeout(() => {
+    //         msg.innerHTML = ""; // Clear message after 10 seconds
+    //     }, 10000); // 1000 milliseconds (1 second)
     } else if (cnum < usernum) {
         msg.innerHTML = "Too high! Try again 😵‍💫";
         msg.style.color = "red";
