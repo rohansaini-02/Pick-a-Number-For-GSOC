@@ -13,14 +13,20 @@ function check() {
         msg.style.color = "green";
         resBtn.style.display = "block";
         setTimeout(() => {
-            msg.innerHTML = ""; // Clear message after 5 seconds
-        }, 10000); // 5000 milliseconds (5 seconds)
+            msg.innerHTML = ""; // Clear message after 10 seconds
+        }, 10000); // 1000 milliseconds (1 second)
     } else if (cnum < usernum) {
         msg.innerHTML = "Too high! Try again 😵‍💫";
         msg.style.color = "red";
+        setTimeout(()=>{
+            msg.innerHTML="";
+        },2000);
     } else {
         msg.innerHTML = "Too low! Try again 😶‍🌫️";
         msg.style.color = "red";
+        setTimeout(()=>{
+            msg.innerHTML="";
+        },2000);
     }
     attempt++;
     attemptData.innerHTML = attempt;
